@@ -1,0 +1,13 @@
+{
+  "name": "ai-course-recommendation-system-root",
+  "version": "1.0.0",
+  "description": "AI-Powered Course Recommendation System — Full-Stack Portfolio & Placement Ready",
+  "scripts": {
+    "start:ml": "cd ml_service && python app.py",
+    "start:server": "cd server && node src/server.js",
+    "start:client": "cd client && npm run dev",
+    "test:ml": "cd ml_service && python test_recommender.py && python evaluate_model.py",
+    "test:server": "cd server && npm test",
+    "seed": "cd server && node src/db/seed.js"
+  }
+}
